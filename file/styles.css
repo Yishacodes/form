@@ -1,4 +1,4 @@
-@media(min-width: 1200px) {body{color: black;
+body{color: black;
 background-color: burlywood;
 margin-top: 10px;
 width: 100%;}
@@ -17,4 +17,4 @@ color: black;
 font-size: 0.8rem;
 border-color: black;}
 #name,#service,#number,#email,#product{width: auto;
-height: auto;}}
+height: auto;}
