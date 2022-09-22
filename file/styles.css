@@ -1,6 +1,7 @@
-body{color: black;
+@media(min-width: 1200px) {body{color: black;
 background-color: burlywood;
-margin-top: 10px;}
+margin-top: 10px;
+width: 100%;}
 h1,p{text-align: center;
 margin: auto;}
 #form{margin: 10px;
@@ -16,4 +17,4 @@ color: black;
 font-size: 0.8rem;
 border-color: black;}
 #name,#service,#number,#email,#product{width: auto;
-height: auto;}
+height: auto;}}
