@@ -2,6 +2,7 @@ body{color: black;
 background-color: burlywood;
 margin-top: 10px;
 width: 100%;
+min-width: 200px;
 height: auto;}
 h1,p{text-align: center;
 margin: auto;}
