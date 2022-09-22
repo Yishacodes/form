@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Survey Form</title>
+	<link rel="stylesheet" type="text/css" href="styles.css"/>
+</head>
+<body>
+<h1>Bargainbabe Survey Form</h1>
+<p>please fill form to help serve you better</p>
+<form>
+	<fieldset id="form">
+	<label for="name">
+		<legend>Name</legend>
+		<input type="text" id="name" name="name" placeholder="Enter your name" required>
+		</label>
+		<label for="number">
+		<legend>Number</legend>	
+		<input type="number" name="number" id="number" placeholder="Enter your number" required>
+		</label>
+		<label for="email">
+			<legend>Email</legend>
+			<input type="email" name="email" id="email" placeholder="Enter your email" required>
+		</label>
+		 <label>
+		 	<legend>what best describe our service</legend>
+		 	<select id="service">
+		 		<option>Excellent</option>
+		 		<option>Good</option>
+		 		<option>Bad</option>
+		 	</select>
+		 </label>
+		 <label for="yes">
+		 	<legend>would you refer bargainbabe to your friends?</legend>
+		 	<input type="radio" name="service" id="yes" value="yes">Yes
+		 </label>
+		 <label for="no">
+		 <input type="radio" name="service" value="no" id="no">No	
+		 </label>
+		 <label>
+		 	<legend>which of the bargainbabe product do you like</legend>
+		 	<select id="product">
+		 		<option>Shoes</option>
+		 		<option>Accessories</option>
+		 		<option>Bags</option>
+		 	</select>
+		 </label>
+		 <label for="Delivery">
+		 	<legend>what do you want us to improve us on <small>(select only one)</small></legend>
+		 	<input type="checkbox" name="improve" id="delivery" value="Delivery">Delivery
+		 </label>
+		 <label for="customer service">
+		 	<input type="checkbox" name="improve" id="customer service" value="customer service">Customer Service 
+		 </label>
+		 <label for="suggestion">
+		 	<legend>Any Suggestions?</legend>
+		 	<input type="textarea" cols="30" rows="4" placeholder="write Suggestions">
+		 </label>
+		 <input type="submit" id="submit">
+	</fieldset>
+		</form>
+</body>
+</html>

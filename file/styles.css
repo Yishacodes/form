@@ -1,0 +1,19 @@
+body{color: black;
+background-color: burlywood;
+margin-top: 10px;}
+h1,p{text-align: center;
+margin: auto;}
+#form{margin: 10px;
+padding: auto;}
+label{margin: 1px;}
+input[type="submit"]{display: block;
+width: 50%;
+margin: 1em auto;
+min-width: 200px;
+height: 25px;
+background-color: coral;
+color: black;
+font-size: 0.8rem;
+border-color: black;}
+#name,#service,#number,#email,#product{width: auto;
+height: auto;}
